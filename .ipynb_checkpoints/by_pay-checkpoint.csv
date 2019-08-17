@@ -1,0 +1,238 @@
+,country,pay,count
+0,italy,$20k - $40k,1
+1,Vietnam,"Less than $20,000",1
+2,Vietnam,$20k - $40k,1
+3,Venezuela,"Less than $20,000",1
+4,Usa,$40k - $60k,1
+5,Uruguay,"Less than $20,000",1
+6,United Kingdom ,$40k - $60k,2
+7,United Kingdom ,$20k - $40k,1
+8,United Kingdom,"Less than $20,000",4
+9,United Kingdom,$80k - $100k,7
+10,United Kingdom,$60k - $80k,16
+11,United Kingdom,$40k - $60k,31
+12,United Kingdom,$20k - $40k,18
+13,United Kingdom,$200k+,1
+14,United Kingdom,$180k - $200k,1
+15,United Kingdom,$160k - $180k,2
+16,United Kingdom,$120k - $140k,3
+17,United Kingdom,$100k - $120k,5
+18,Uganda,"Less than $20,000",2
+19,USA,"Less than $20,000",14
+20,USA,$80k - $100k,114
+21,USA,$60k - $80k,124
+22,USA,$40k - $60k,82
+23,USA,$20k - $40k,29
+24,USA,$200k+,54
+25,USA,$180k - $200k,21
+26,USA,$160k - $180k,15
+27,USA,$140k - $160k,37
+28,USA,$120k - $140k,67
+29,USA,$100k - $120k,88
+30,Turkey,"Less than $20,000",1
+31,Turkey,$20k - $40k,4
+32,Tunisia,$20k - $40k,1
+33,Thailand,$20k - $40k,1
+34,Tanzania,"Less than $20,000",1
+35,Tanzania,$200k+,1
+36,Taiwan,"Less than $20,000",1
+37,Switzerland,"Less than $20,000",1
+38,Switzerland,$80k - $100k,2
+39,Switzerland,$40k - $60k,3
+40,Switzerland,$160k - $180k,1
+41,Switzerland,$140k - $160k,1
+42,Sweden,"Less than $20,000",1
+43,Sweden,$60k - $80k,2
+44,Sweden,$40k - $60k,4
+45,Spain,"Less than $20,000",3
+46,Spain,$80k - $100k,2
+47,Spain,$60k - $80k,5
+48,Spain,$40k - $60k,6
+49,Spain,$20k - $40k,12
+50,South Africa ,$80k - $100k,1
+51,South Africa,$80k - $100k,1
+52,South Africa,$60k - $80k,1
+53,South Africa,$40k - $60k,2
+54,South Africa,$100k - $120k,1
+55,Slovenia,$20k - $40k,1
+56,Singapore ,$80k - $100k,1
+57,Singapore ,$40k - $60k,1
+58,Singapore,$80k - $100k,1
+59,Singapore,$40k - $60k,1
+60,Serbia,"Less than $20,000",1
+61,Serbia,$20k - $40k,1
+62,Scotland,$60k - $80k,3
+63,Scotland,$40k - $60k,2
+64,Scotland,$20k - $40k,1
+65,Scotland,$100k - $120k,1
+66,Saudi Arabia,$60k - $80k,1
+67,Saudi Arabia,$100k - $120k,1
+68,Russia ,"Less than $20,000",1
+69,Russia ,$20k - $40k,1
+70,Russia,"Less than $20,000",4
+71,Russia,$20k - $40k,1
+72,Romania,"Less than $20,000",1
+73,Qatar,$40k - $60k,1
+74,Portugal,"Less than $20,000",3
+75,Portugal,$40k - $60k,1
+76,Poland,"Less than $20,000",1
+77,Poland,$80k - $100k,1
+78,Poland,$60k - $80k,1
+79,Poland,$40k - $60k,1
+80,Poland,$20k - $40k,2
+81,Philippines,"Less than $20,000",1
+82,Peru,$20k - $40k,1
+83,Panama,$60k - $80k,1
+84,Pakistan,"Less than $20,000",1
+85,Norway,$80k - $100k,2
+86,Norway,$60k - $80k,3
+87,Norway,$180k - $200k,1
+88,Norway,$120k - $140k,1
+89,Nigeria,"Less than $20,000",2
+90,New Zealand,$80k - $100k,3
+91,New Zealand,$60k - $80k,2
+92,New Zealand,$100k - $120k,1
+93,Netherlands ,$60k - $80k,1
+94,Netherlands,$80k - $100k,2
+95,Netherlands,$60k - $80k,3
+96,Netherlands,$40k - $60k,2
+97,Netherlands,$20k - $40k,3
+98,Netherlands,$100k - $120k,1
+99,Mexico,"Less than $20,000",12
+100,Mexico,$60k - $80k,3
+101,Mexico,$40k - $60k,1
+102,Mexico,$20k - $40k,9
+103,Mexico,$180k - $200k,1
+104,Mexico,$100k - $120k,1
+105,Malaysia,$20k - $40k,2
+106,Madagascar,$20k - $40k,1
+107,Luxembourg,$60k - $80k,2
+108,Luxembourg,$120k - $140k,1
+109,Lebanon,$40k - $60k,1
+110,Kuwait,$40k - $60k,1
+111,Kenya,"Less than $20,000",3
+112,Kenya,$20k - $40k,1
+113,Kenya,$100k - $120k,1
+114,Japan,"Less than $20,000",2
+115,Japan,$80k - $100k,1
+116,Japan,$60k - $80k,1
+117,Japan,$40k - $60k,1
+118,Japan,$100k - $120k,2
+119,Italy,"Less than $20,000",4
+120,Italy,$60k - $80k,1
+121,Italy,$40k - $60k,3
+122,Italy,$20k - $40k,6
+123,Israel ,$120k - $140k,1
+124,Israel,$140k - $160k,1
+125,Ireland,$80k - $100k,1
+126,Ireland,$60k - $80k,3
+127,Ireland,$40k - $60k,1
+128,Indonesia,"Less than $20,000",1
+129,Indonesia,$20k - $40k,1
+130,Indonesia,$200k+,1
+131,India ,"Less than $20,000",3
+132,India ,$40k - $60k,1
+133,India,"Less than $20,000",15
+134,India,$80k - $100k,3
+135,India,$60k - $80k,2
+136,India,$40k - $60k,5
+137,India,$20k - $40k,8
+138,India,$180k - $200k,1
+139,India,$140k - $160k,1
+140,India,$120k - $140k,1
+141,India,$100k - $120k,2
+142,Hungary,"Less than $20,000",3
+143,Hungary,$20k - $40k,1
+144,Hong Kong ,$120k - $140k,1
+145,Hong Kong,$60k - $80k,1
+146,Hong Kong,$120k - $140k,1
+147,Greece,$20k - $40k,2
+148,Germany ,"Less than $20,000",1
+149,Germany ,$80k - $100k,1
+150,Germany ,$60k - $80k,1
+151,Germany ,$40k - $60k,1
+152,Germany ,$20k - $40k,1
+153,Germany ,$200k+,1
+154,Germany,"Less than $20,000",2
+155,Germany,$80k - $100k,1
+156,Germany,$60k - $80k,11
+157,Germany,$40k - $60k,8
+158,Germany,$20k - $40k,4
+159,Germany,$120k - $140k,2
+160,Germany,$100k - $120k,3
+161,Georgia,$40k - $60k,1
+162,France,"Less than $20,000",1
+163,France,$80k - $100k,4
+164,France,$60k - $80k,3
+165,France,$40k - $60k,8
+166,France,$20k - $40k,7
+167,France,$160k - $180k,1
+168,France,$100k - $120k,2
+169,Finland ,$40k - $60k,1
+170,Finland,$60k - $80k,2
+171,Finland,$40k - $60k,4
+172,Finland,$20k - $40k,1
+173,Europe,$120k - $140k,1
+174,Estonia,$20k - $40k,1
+175,England ,$60k - $80k,1
+176,England,$80k - $100k,1
+177,England,$60k - $80k,1
+178,England,$40k - $60k,4
+179,England,$20k - $40k,2
+180,England,$100k - $120k,1
+181,El Salvador,"Less than $20,000",1
+182,Egypt ,$20k - $40k,1
+183,Ecuador,$20k - $40k,1
+184,Dominican Republic,"Less than $20,000",1
+185,Denmark,$80k - $100k,1
+186,Denmark,$40k - $60k,1
+187,Denmark,$20k - $40k,1
+188,Cuba,"Less than $20,000",1
+189,Croatia,$80k - $100k,1
+190,Costa Rica,$40k - $60k,1
+191,Costa Rica,$20k - $40k,1
+192,Colombia,"Less than $20,000",3
+193,Colombia,$80k - $100k,1
+194,Colombia,$40k - $60k,1
+195,Colombia,$20k - $40k,5
+196,China,$40k - $60k,1
+197,Chile,$60k - $80k,1
+198,Chile,$20k - $40k,2
+199,Canada,"Less than $20,000",2
+200,Canada,$80k - $100k,13
+201,Canada,$60k - $80k,18
+202,Canada,$40k - $60k,8
+203,Canada,$20k - $40k,5
+204,Canada,$200k+,3
+205,Canada,$140k - $160k,2
+206,Canada,$120k - $140k,4
+207,Canada,$100k - $120k,7
+208,Brazil,"Less than $20,000",7
+209,Brazil,$80k - $100k,4
+210,Brazil,$60k - $80k,1
+211,Brazil,$40k - $60k,2
+212,Brazil,$20k - $40k,3
+213,Brazil,$100k - $120k,1
+214,Bermuda,$80k - $100k,1
+215,Belgium,$80k - $100k,1
+216,Belgium,$40k - $60k,1
+217,Belgium,$20k - $40k,5
+218,Belgium,$100k - $120k,1
+219,Belarus ,"Less than $20,000",1
+220,Belarus,"Less than $20,000",1
+221,Belarus,$40k - $60k,1
+222,Austria,"Less than $20,000",2
+223,Austria,$80k - $100k,1
+224,Austria,$100k - $120k,1
+225,Australia,"Less than $20,000",1
+226,Australia,$80k - $100k,6
+227,Australia,$60k - $80k,5
+228,Australia,$40k - $60k,1
+229,Australia,$200k+,1
+230,Australia,$180k - $200k,2
+231,Australia,$140k - $160k,3
+232,Australia,$120k - $140k,1
+233,Australia,$100k - $120k,6
+234,Argentina,"Less than $20,000",8
+235,Argentina,$40k - $60k,1
+236,Argentina,$20k - $40k,2

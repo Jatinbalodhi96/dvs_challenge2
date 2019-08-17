@@ -1,0 +1,55 @@
+# Quick insights
+    - Total Responses
+    - Are you a freelancer/consultant?
+    - Which one of these is the closest to describing your role?
+    - How is your organization using data visualization? Select all that apply.
+    - How is your organization using data visualization? Select all that apply. (overall)
+    - What modes of data visualization are in use at your organization? Select all that apply. (overall)
+    - Leadership in your organization has a strong understanding of the value of data visualization. (overall) scatter plot
+    - Data visualization at your organization features prominently in what parts of the organization? Select all that apply.
+    - Add with dropdownlist with scatter plot
+        - Hours a week focused on creating/implementing/productizing data visualizations?	
+        - Hours a week focused on data engineering?	
+        - Hours a week focused on data science?	
+        - Hours a week focused on design?	
+        - Hours a week focused on data prep work?	
+        - Hours a week focused on building your portfolio?
+    - What technologies do you use to visualize data? Select all that apply. (Word cloud)
+    - Who do you make data visualizations for? Select all that apply. (most common consumers)
+    - How many years of experience do you have doing professional data visualization?
+    - What is your educational background
+    - The organization you work for is in which of the following areas?
+
+
+# comparison (Insights)
+    - What knowledge level does your audience have of the data you are visualizing for them? Select all that apply. / What technologies do you use to visualize data? Select all that apply.
+
+    - Most typically, how often does your audience use your data visualization?/What technologies do you use to visualize data? Select all that apply.
+
+    - What does your audience use your data visualization for? Select all that apply./What technologies do you use to visualize data? Select all that apply.
+
+
+
+# Geographical insights
+    - What is your yearly pay?
+    - What is your hourly rate?
+    - How is your organization using data visualization? Select all that apply. (What most dataviz orgs do countrywise)
+    - What modes of data visualization are in use at your organization? Select all that apply.
+    - Leadership in your organization has a strong understanding of the value of data visualization.
+    - What is your educational background
+    - The organization you work for is in which of the following areas?
+
+# MISC
+    - If you went to college, what did you major in during your undergraduate work?
+    - What's your gender identity?
+    - What non-programming languages do you use regularly?
+
+
+
+# Have you studied data visualization in school (or other formal environment) or did you learn how to do it on your own?
+    - stacked bar, bar chart
+
+# What methods do you think best teach data visualization?
+    - Word cloud on inputs
+
+# 

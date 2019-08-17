@@ -1,0 +1,34 @@
+<div class="d-block" id="table-section">
+    <table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <% var headers = _.keys(data[0]) %>
+            <% _.each(headers, function(h) { %>
+                <th scope="col" class="h6 p-1 table-head cell">
+                    <%= h  %><%= (h == 'Total Responses') ? ' <i class="fas fa-arrow-down"></i>' : '' %>
+                </th>
+            <% }) %>
+        </tr>
+    </thead>
+    <tbody>
+        <% _.each(data, function(row) { %>
+            <tr>
+            <% var row_vals = [] %>
+            <% var row_vals = _.values(row) %>
+            <% row_vals.pop(); row_vals.shift() %>
+            <% var min = _.min(row_vals), max = _.max(row_vals) %>
+            <% table_color.domain([min, max]) %>
+            <% _.each(row, function(v, k) { %>
+                <% if (_.includes(['Total Responses', 'Country'], k)) { %>
+                    <td scope="row" class="p-1 cell bg-light">
+                        <%= v %>
+                    </td>
+                <% } else { %>
+                    <td scope="row" class="p-1 cell" data-toggle="tooltip" title="<%= k %>" style="background-color: <%= table_color(v)  %>"><%= v %></td>
+                <% } %>
+            <% }) %>
+            </tr>
+        <% }) %>
+    </tbody>
+    </table>
+</div>

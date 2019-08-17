@@ -1,0 +1,18 @@
+path {
+    fill: #f6f6f6;
+    stroke: #000;
+    stroke-width: 0.1;
+    cursor: pointer;
+}
+
+.table .cell {
+}
+
+.table .table-head {
+    font-size: 14px;
+}
+
+#table-section {
+    max-height: 315px;
+    overflow-y: auto;
+}
