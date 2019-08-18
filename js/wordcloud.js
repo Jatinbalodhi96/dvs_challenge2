@@ -10,7 +10,7 @@ function wordCloud(selector, data) {
 
     var font_scale = d3.scaleLinear()
                     .domain([0, _.max(_.map(n_data, 'size'))])
-                    .range([5, 70]);
+                    .range([10, 70]);
 
     var width = $('#word_cloud').width(), height = $('#word_cloud').height()
     d3.layout.cloud()
