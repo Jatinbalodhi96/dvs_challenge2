@@ -13,7 +13,7 @@ function wordCloud(selector, data) {
                     .domain([0, _.max(_.map(n_data, 'size'))])
                     .range([10, 70]);
 
-    var width = $(selector).width(), height = $('#word_cloud').height()
+    var width = $(selector).width(), height = $(selector).height()
     d3.layout.cloud()
         .size([width, height])
         .words(data)

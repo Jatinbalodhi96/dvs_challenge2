@@ -22,7 +22,6 @@ function barChart(selector, data) {
         .range([0, height])
         .padding(0.1);
 
-
     x.domain([0, _.max(x_values)])
     y.domain(_.map(data, 'key'))
 
