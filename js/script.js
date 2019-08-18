@@ -6,7 +6,9 @@ function app() {
     render_table()
     render_word_cloud()
     $('.word_cloud_drop_down').on('click', function() {
-        render_word_cloud($(this).data('key'))
+        var key = $(this).data('key')
+        render_word_cloud(key)
+        $('#word_cloud_dropdown').text(key.slice(0, 25) + '...')
     })
 }
 
