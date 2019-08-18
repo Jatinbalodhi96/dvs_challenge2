@@ -40,7 +40,7 @@ function wordCloud(selector, data) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
         })
         .text(function(d) { return d.text; })
-        .transition().duration(1000)
+        .transition().duration(1500)
         .style("font-size", function(d) { return d.size + "px"; })
     }
 }

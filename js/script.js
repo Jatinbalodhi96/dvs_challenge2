@@ -3,6 +3,15 @@ $(window).ready(app)
 var data;
 
 function app() {
+    $.ajax({
+        'method': 'GET',
+        'url': 'assets/dashboard.json',
+        'async': false,
+        'success': function(resp) {
+            data = resp
+            barChart('#bar_chart', resp['methods_best_teach_viz'])
+        }
+    });
     render_table()
     render_word_cloud()
     $('.word_cloud_drop_down').on('click', function() {
@@ -16,26 +25,18 @@ function render_table() {
     $.ajax({
         'method': 'GET',
         'url': 'assets/yearly_pay.json',
-        // 'async': false,
+        'async': false,
         'success': function(resp) {
             $('#table-container').on('template', function() {
                 $('[data-toggle="tooltip"]').tooltip();
-            }).template({'data': resp})
+            }).template({'data': resp.slice(0, 9)})
         }
     });
 }
 
 function render_word_cloud(key) {
     key = (key == undefined) ? 'Equal Parts School and Self-Taught' : key
-    $.ajax({
-        'method': 'GET',
-        'url': 'assets/dashboard.json',
-        'async': false,
-        'success': function(resp) {
-            data = resp['education_vs_tools'][key]
-            wordCloud('#word_cloud', data)
-        }
-    });
+    wordCloud('#word_cloud', data['education_vs_tools'][key])
 }
 
 var table_color = d3.scaleQuantile()

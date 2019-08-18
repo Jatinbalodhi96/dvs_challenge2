@@ -34,19 +34,6 @@
         "Occasional": 21,
         "Yes": 184
         },
-    "yearly_pay": {
-        "$60k - $80k":233,
-        "$40k - $60k":209,
-        "$80k - $100k":189,
-        "$20k - $40k":166,
-        "$100k - $120k":128,
-        "Less than $20,000":127,
-        "$120k - $140k":90,
-        "$200k+":71,
-        "$140k - $160k":51,
-        "$180k - $200k":27,
-        "$160k - $180k":19
-        },
     "education_vs_tools": {
         "Equal Parts School and Self-Taught": {
             "Adobe XD": 1,
@@ -317,5 +304,5 @@
             "google sheets": 1,
             "kepler.gl": 2
         }
-    }
+        }
 }
