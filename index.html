@@ -13,8 +13,18 @@
         <div class="row">
             <div class="col-sm-4">
             <div class="card" style="width: 100%; height: 300px;">
-                <div class="card-header py-1 mt-0">
-                    <h6>Country wise pay heat map</h6>
+                <div class="card-header py-1 mt-0 d-flex">
+                    <h6>Tool used vs Education</h6>
+                    <div class="dropdown pl-5 ml-4">
+                        <button class="btn btn-sm btn-tansparent dropdown-toggle m-auto pt-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Select
+                        </button>
+                        <div class="dropdown-menu p-0 m-auto dropdown-font" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item px-1 py-1 word_cloud_drop_down" data-key="Equal Parts School and Self-Taught">Equal Parts School and Self-Taught</a>
+                          <a class="dropdown-item px-1 py-1 word_cloud_drop_down" data-key="Mostly Self-Taught">Mostly Self-Taught</a>
+                          <a class="dropdown-item px-1 py-1 word_cloud_drop_down" data-key="Mostly From School (or other formal courses)">Mostly From School (or other formal courses)</a>
+                        </div>
+                      </div>
                 </div>
                 <div class="card-body p-0" id="word_cloud">
                 </div>

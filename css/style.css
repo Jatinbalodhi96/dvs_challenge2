@@ -16,3 +16,7 @@ path {
     max-height: 315px;
     overflow-y: auto;
 }
+
+.dropdown-font {
+    font-size: 1rem;
+}

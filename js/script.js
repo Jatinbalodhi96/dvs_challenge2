@@ -5,6 +5,9 @@ var data;
 function app() {
     render_table()
     render_word_cloud()
+    $('.word_cloud_drop_down').on('click', function() {
+        render_word_cloud($(this).data('key'))
+    })
 }
 
 function render_table() {
@@ -18,22 +21,19 @@ function render_table() {
             }).template({'data': resp})
         }
     });
-
 }
 
-function render_word_cloud() {
+function render_word_cloud(key) {
+    key = (key == undefined) ? 'Equal Parts School and Self-Taught' : key
     $.ajax({
         'method': 'GET',
         'url': 'assets/dashboard.json',
         'async': false,
         'success': function(resp) {
-            data = resp['education_vs_tools']['Equal Parts School and Self-Taught']
-            wordCloud('', data)
+            data = resp['education_vs_tools'][key]
+            wordCloud('#word_cloud', data)
         }
     });
-    // d3.json('assets/dashboard.json').then(function(data) {
-    //     console.log(data)
-    // })
 }
 
 var table_color = d3.scaleQuantile()
