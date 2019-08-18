@@ -13,12 +13,10 @@
         <div class="row">
             <div class="col-sm-4">
             <div class="card" style="width: 100%; height: 300px;">
-                <div class="card-header">
-                    <h5>Country wise pay heat map</h5>
+                <div class="card-header py-1 mt-0">
+                    <h6>Country wise pay heat map</h6>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-body p-0" id="word_cloud">
                 </div>
             </div>
             </div>
@@ -34,12 +32,12 @@
         <div class="row">
             <div class="col-sm-12">
             <div class="card mt-2">
-                <div class="card-header py-1">
+                <div class="card-header py-1 mt-0">
                     <h6>Country wise pay heat map</h6>
                 </div>
-                <div class="card-body py-1">
-                    <h6 class="card-title">Special title treatment</h6>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-body py-1 px-1">
+                    <!-- <h6 class="card-title ">Special title treatment</h6> -->
+                    <p class="card-text mb-1">With supporting text below as a natural lead-in to additional content.</p>
                     <script type="text/html" src="templates/table.html" id="table-container"></script>
                 </div>
             </div>
@@ -51,9 +49,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/lodash/lodash.min.js"></script>
-    <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
     <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
     <script src="node_modules/g1/dist/g1.min.js"></script>
+    <script src="js/wordcloud.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
