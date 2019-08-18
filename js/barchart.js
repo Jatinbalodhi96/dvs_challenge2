@@ -30,7 +30,7 @@ function barChart(selector, data) {
         .enter()
         .append('g')
         .attr('data-toggle', 'tooltip')
-        .attr('title', function(d) { return d.key })
+        .attr('title', function(d) { return d.key + " - " + d.value})
 
     bar.append('rect')
         .attr('class', 'bar')
@@ -48,5 +48,6 @@ function barChart(selector, data) {
         .attr('x', function (d) { return x(d.value) - 2 })
         .attr("y", function (d) { return y(d.key) + 18 })
         .attr("text-anchor", "end")
-        .text(function (d) { return d.value })
+        .attr('font-size', '14px')
+        .text(function (d) { return ((d.key.length > 40) ? d.key.slice(0, 40) + '...' : d.key) })
 }
