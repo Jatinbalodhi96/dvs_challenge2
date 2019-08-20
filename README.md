@@ -1,2 +1,2 @@
-# dvs_challenge2
+# Data Visualization Survey.
 Data visualization society Challenge
