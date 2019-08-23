@@ -955,5 +955,79 @@
             "ggplot2": 25,
             "kepler.gl": 2
         }
-    }
+    },
+    "time_spent": [
+        {
+            "Role": "Academic",
+            "Portfolio": 1.927272727,
+            "Data prep": 6.079545455,
+            "Data Engineering": 3.647058824,
+            "Design": 3.662790698,
+            "Data Science": 6.134831461
+        },
+        {
+            "Role": "Analyst",
+            "Portfolio": 2.335462938,
+            "Data prep": 10.9919571,
+            "Data Engineering": 6.1375,
+            "Design": 4.652506964,
+            "Data Science": 5.790368272
+        },
+        {
+            "Role": "Designer",
+            "Portfolio": 3.781779661,
+            "Data prep": 4.008474576,
+            "Data Engineering": 2.35042735,
+            "Design": 19.07633588,
+            "Data Science": 1.49137931
+        },
+        {
+            "Role": "Developer",
+            "Portfolio": 2.375,
+            "Data prep": 6.178861789,
+            "Data Engineering": 6.407563025,
+            "Design": 6.479674797,
+            "Data Science": 3.896551724
+        },
+        {
+            "Role": "Engineer",
+            "Portfolio": 2.010989011,
+            "Data prep": 6.705,
+            "Data Engineering": 11.77227723,
+            "Design": 5.295918367,
+            "Data Science": 5.757575758
+        },
+        {
+            "Role": "Freelancer",
+            "Portfolio": 0,
+            "Data prep": 1,
+            "Data Engineering": 20,
+            "Design": 10,
+            "Data Science": 2
+        },
+        {
+            "Role": "Leadership (Manager, Director, VP, etc)",
+            "Portfolio": 1.913333333,
+            "Data prep": 6.154320988,
+            "Data Engineering": 5.461538462,
+            "Design": 6.234756098,
+            "Data Science": 5.538461538
+        },
+        {
+            "Role": "Scientist",
+            "Portfolio": 1.804123711,
+            "Data prep": 8.064220183,
+            "Data Engineering": 5.738738739,
+            "Design": 2.919191919,
+            "Data Science": 12.4137931
+        },
+        {
+            "Role": "Student",
+            "Portfolio": 2.379310345,
+            "Data prep": 8.085714286,
+            "Data Engineering": 3.6875,
+            "Design": 5.544117647,
+            "Data Science": 7.696969697
+        }
+    ]
 }

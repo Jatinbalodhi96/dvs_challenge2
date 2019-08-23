@@ -15,6 +15,7 @@ function app() {
     render_table()
     render_word_cloud()
     render_word_cloud_role()
+    render_time_spent()
     $('.word_cloud_drop_down').on('click', function() {
         edu = $(this).data('key')
         render_word_cloud(edu)
@@ -25,16 +26,6 @@ function app() {
         render_word_cloud_role(role)
         $('#word_cloud_dropdown_role').text(_.upperFirst(role.slice(0, 30) + '...'))
     })
-    // $('.open_modal').modal('show', function() {})
-    // $('.open_modal').on('click', function() {
-    //     $('.v_modal').on('shown', function() {
-    //         var id  = $(this).attr('id')
-    //         if (id = "tech_modal"){
-    //             role = (role == undefined) ? 'Equal Parts School and Self-Taught' : role
-    //             wordCloud('#modal_visual', data['education_vs_tools'][role])
-    //         }
-    //     })
-    // })
 }
 
 function render_table() {
@@ -57,8 +48,11 @@ function render_word_cloud(key) {
 
 function render_word_cloud_role(key) {
     key = (key == undefined) ? 'academic' : key
-    console.log(data['role_vs_tools'])
     wordCloud('#word_cloud_role', data['role_vs_tools'][key])
+}
+
+function render_time_spent() {
+    stackBar('#time_spent', data['time_spent'])
 }
 
 var table_color = d3.scaleQuantile()

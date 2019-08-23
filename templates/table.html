@@ -24,7 +24,7 @@
                         <%= v %>
                     </td>
                 <% } else { %>
-                    <td scope="row" class="p-1 cell" data-toggle="tooltip" title="<%= k %>" style="background-color: <%= table_color(v)  %>"><%= v %></td>
+                    <td scope="row" class="p-1 cell" data-toggle="tooltip" title="<%= k %>" style="background-color: <%= table_color(v)  %>"><%= _.round((v/row['Total Responses']) * 100, 2) %> %</td>
                 <% } %>
             <% }) %>
             </tr>

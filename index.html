@@ -12,47 +12,10 @@
 <body>
     <div id="main-container" class="container-fluid">
         <div class="row">
-            <div class="col-sm-4">
-                <div class="card" style="width: 100%; height: 300px;">
-                    <div class="align-items-center card-header d-flex justify-content-between">
-                        <h6 class="pt-1">Technologies vs Education</h6>
-                        <div class="dropdown pl-0 ml-2 pt-1">
-                            <button class="btn btn-sm btn-tansparent dropdown-toggle m-auto pt-0 dropdown-font" type="button" id="word_cloud_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Equal Parts School and Se...
-                            </button>
-                            <div class="dropdown-menu p-0 m-auto dropdown-font" aria-labelledby="word_cloud_dropdown">
-                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Equal Parts School and Self-Taught">Equal Parts School and Self-Taught</a>
-                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Mostly Self-Taught">Mostly Self-Taught</a>
-                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Mostly From School (or other formal courses)">Mostly From School (or other formal courses)</a>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-tansparent px-0 open_modal" id="tech_modal" data-toggle="modal" data-target="#exampleModal">
-                            <i class="fas fa-expand-arrows-alt"></i>
-                        </button>
-                        <!-- <span class="open_modal pl-4"><i class="fas fa-expand-arrows-alt"></i></span> -->
-                    </div>
-                    <div class="card-body p-0" id="word_cloud">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card" style="width: 100%; height: 300px;">
-                    <div class="align-items-center card-header d-flex justify-content-between">
-                        <h6 class="pt-1">Method Best Teaches Visualization (Top 10)</h6>
-                        <div class="dropdown pl-0 ml-2 pt-1">
-                        </div>
-                        <button type="button" class="btn btn-tansparent px-0 open_modal" id="method_modal" data-toggle="modal" data-target="#exampleModal">
-                            <i class="fas fa-expand-arrows-alt"></i>
-                        </button>
-                    </div>
-                    <div class="card-body p-0" id="bar_chart">
-                    </div> 
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="card" style="width: 100%; height: 300px;">
-                    <div class="align-items-center card-header d-flex justify-content-between">
-                        <h6 class="pt-1">Role Tools Comparison</h6>
+            <div class="col-sm-6">
+                <div class="card mt-2" style="width: 100%; height: 500px;">
+                    <div class="align-items-center card-header d-flex justify-content-between  py-0">
+                        <h6 class="pt-1">What technologies do you use to visualize data?</h6>
                         <div class="dropdown pl-0 ml-2 pt-1">
                             <button class="btn btn-sm btn-tansparent dropdown-toggle m-auto pt-0 dropdown-font" type="button" id="word_cloud_dropdown_role" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Academic
@@ -67,11 +30,18 @@
                                 <a class="dropdown-item px-1 py-1 role_drop_down dropdown-font" data-key="student">Student</a>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-tansparent px-0 open_modal" id="role_modal" data-toggle="modal" data-target="#exampleModal">
-                                <i class="fas fa-expand-arrows-alt"></i>
-                        </button>    
+                        </div>
+                        <div class="card-body p-0" id="word_cloud_role">
+                        </div>
                     </div>
-                    <div class="card-body p-0" id="word_cloud_role">
+            </div>
+            <div class="col-sm-6">
+                <div class="card mt-2" style="width: 100%; height: 500px;">
+                    <div class="align-items-center card-header d-flex justify-content-between  py-0">
+                        <h6 class="pt-1">Hours a week spent on multiple activities</h6>
+                        <!-- <span class="open_modal pl-4"><i class="fas fa-expand-arrows-alt"></i></span> -->
+                    </div>
+                    <div class="card-body p-0" id="time_spent">
                     </div>
                 </div>
             </div>
@@ -79,31 +49,47 @@
         <div class="row">
             <div class="col-sm-12">
             <div class="card mt-2">
-                <div class="align-items-center card-header d-flex justify-content-between">
+                <div class="align-items-center card-header d-flex justify-content-between  py-0">
                     <h6 class="pt-1">Country wise pay comparison</h6>
-                    <button type="button" class="btn btn-tansparent px-0 open_modal" id="pay_modal" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </button>
                 </div>
                 <div class="card-body py-1 px-1">
                     <!-- <h6 class="card-title ">Special title treatment</h6> -->
-                    <p class="card-text mb-1">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text mb-1">Lightest color is the Max value and darkest color is the lowest value for every Country wise pay.</p>
                     <script type="text/html" src="templates/table.html" id="table-container"></script>
                 </div>
             </div>
             </div>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
+        <div class="row pb-4">
+            <div class="col-sm-6">
+                <div class="card mt-2" style="width: 100%; height: 400px;">
+                    <div class="align-items-center card-header d-flex justify-content-between py-0">
+                        <h6 class="pt-1">Have you studied data visualization in School?</h6>
+                        <div class="dropdown pl-0 ml-2 pt-1">
+                            <button class="btn btn-sm btn-tansparent dropdown-toggle m-auto pt-0 dropdown-font" type="button" id="word_cloud_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Equal Parts School and Se...
+                            </button>
+                            <div class="dropdown-menu p-0 m-auto dropdown-font" aria-labelledby="word_cloud_dropdown">
+                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Equal Parts School and Self-Taught">Equal Parts School and Self-Taught</a>
+                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Mostly Self-Taught">Mostly Self-Taught</a>
+                                <a class="dropdown-item px-1 py-1 word_cloud_drop_down dropdown-font" data-key="Mostly From School (or other formal courses)">Mostly From School (or other formal courses)</a>
+                            </div>
+                        </div>
+                        <!-- <span class="open_modal pl-4"><i class="fas fa-expand-arrows-alt"></i></span> -->
+                    </div>
+                    <div class="card-body p-0" id="word_cloud">
+                    </div>
                 </div>
-                <div class="modal-body v_modal" id="modal_visual">
-                    <!-- <div class="w-100"></div> -->
+            </div>
+            <div class="col-sm-6">
+                <div class="card mt-2" style="width: 100%; height: 400px;">
+                    <div class="align-items-center card-header d-flex justify-content-between  py-0">
+                        <h6 class="pt-1">What methods do you think best teach data visualization? (Top 10)</h6>
+                        <div class="dropdown pl-0 ml-2 pt-1">
+                        </div>
+                    </div>
+                    <div class="card-body p-0" id="bar_chart">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -114,10 +100,12 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/lodash/lodash.min.js"></script>
     <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
     <script src="node_modules/g1/dist/g1.min.js"></script>
     <script src="js/barchart.js"></script>
     <script src="js/wordcloud.js"></script>
+    <script src="js/stackedbar.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

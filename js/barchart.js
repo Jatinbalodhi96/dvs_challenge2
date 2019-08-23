@@ -49,5 +49,5 @@ function barChart(selector, data) {
         .attr("y", function (d) { return y(d.key) + 18 })
         .attr("text-anchor", "end")
         .attr('font-size', '14px')
-        .text(function (d) { return ((d.key.length > 40) ? d.key.slice(0, 40) + '...' : d.key) })
+        .text(function (d) { return ((d.key.length > 60) ? d.key.slice(0, 60) + '...' : d.key) + " - " + d.value })
 }
